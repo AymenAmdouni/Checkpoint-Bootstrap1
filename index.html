@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <link rel="icon" type="Favicon-Portflio" href="/images/restaurant.jpg">
+     <link rel="stylesheet" href="./style.css">
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Grand Palate</title>
+</head>
+<body>
+    <header>
+<nav class="navbar navbar-expand-lg bg-dark fixed-top" data-bs-theme="dark"> 
+  <div class="container-fluid ">
+    <i class="fa-sharp fa-solid fa-utensils" style="color: #fa2a05; font-size: 50px; "></i>
+    <a class="navbar-brand" href="#"><H4 style="color: #fa2a05;"> The Grond Palate</H4></i></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse  " id="navbarNavDropdown"> <!--d-lg-flex justify-content-end-->
+      <ul class="navbar-nav ms-auto  "> <!-- ms-auto-->
+        <li class="nav-item ">
+          <a class="nav-link active text-danger fw-bold" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item dropdown ">
+          <a class="nav-link dropdown-toggle text-danger fw-bold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Menu
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item text-danger fw-bold" href="#hores">Hores</a></li>
+            <li><a class="dropdown-item text-danger fw-bold" href="#breakfasts">Breakfasts</a></li>
+            <li><a class="dropdown-item text-danger fw-bold" href="#dinner">Dinner</a></li>
+          </ul>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link text-danger fw-bold" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-danger fw-bold" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+</header>
+<main>
+  
+<div id="hero" class="container-fluid">
+ <div id="card1" class="card text-bg-dark mb-3" style="width: 20rem; height: 300px; ">
+  <div class="card-header"><h3 id="hores">Hores </h3></div>
+  <div class="card-body">
+  <p class="card-text">MONDY & THURSDAY</p>
+  <h5 class="card-title">7:30AM-6:30PM</h5>
+  <p class="card-text">FRIDAY & SATURDAY</p>
+  <h5 class="card-title">8:00AM-9:30PM</h5>
+  <p class="card-text">SUNDAY</p>
+  <h5 class="card-title">9:00AM-10:30PM</h5>
+  </div>
+</div>
+
+
+
+
+<div id="breakfasts" class="card text-bg-dark" style="width: 20rem; height: 25rem; margin-left: 50px;">
+  <img src="./images/petits-dejeuners.webp" class="card-img-top" alt="picture of breakfast">
+  <div class="card-body">
+   <h3 style="color:#fa2a05; text-align: center; "> 24 dT </h3>
+   <H6>
+   +2coffee +2juice
+   </H6>
+   <h6>+Assortment of jam, butter</h6>
+<h6>+toast +cold meats + 2 omelettes +1 bottle of water</h6>
+  </div>
+</div>
+
+<div id="dinner" class="card text-bg-dark " style="width: 20rem; height: 32rem; margin-left: 50px;">
+  <img src="./images/Grilled.jpg" class="card-img-top" alt=".picture of dinner">
+  <div class="card-body">
+<h3 style="color: #fa2a05; text-align: center;"> 35DT </h3>
+  <h6>Get a taste of some “Southern Hospitality” at Palate 🤤 One of Chef Sterling’s amazing Magnum Opus dishes, these large format servings can be enjoyed by a party of 2 - 3 people. Served with Mary’s Free Range Fried Chicken, Kimchi Mac, Roasted Carrots and Biscuits & Jam</h6>
+</div>
+</div>
+
+
+
+</div>
+
+
+
+
+<div class="card mb-3" id="about">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="./images/about.png" class="img-fluid rounded-start" alt="about restaurant" style="width: 500px; height: 400px;" >
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title" >About</h5>
+        <p class="card-text">Choose from a la carte or grab a the whole package! Order anytime until for your best  dinner yet! 🍁🍂🍗</p>
+        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<form id="contact" class="row g-3">
+  <div class="col-md-6">
+    <label for="inputEmail4" class="form-label">Email</label>
+    <input type="email" class="form-control" id="inputEmail4">
+  </div>
+  <div class="col-md-6">
+    <label for="inputPassword4" class="form-label">Password</label>
+    <input type="password" class="form-control" id="inputPassword4">
+  </div>
+  <div class="col-12">
+    <label for="inputAddress" class="form-label">Address</label>
+    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+  </div>
+  <div class="col-md-6">
+    <label for="inputCity" class="form-label">City</label>
+    <input type="text" class="form-control" id="inputCity">
+  </div>
+  <div class="col-md-4">
+    <label for="inputState" class="form-label">State</label>
+    <select id="inputState" class="form-select">
+      <option selected>Breakfasts</option>
+      <option>Dinner</option>
+    </select>
+  </div>
+  
+  <div class="col-12">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" id="gridCheck">
+      <label class="form-check-label" for="gridCheck">
+        Check me out
+      </label>
+    </div>
+  </div>
+  <div class="col-12">
+    <button type="submit" class="btn btn-primary">Sign in</button>
+  </div>
+</form>
+
+
+
+
+
+
+
+</main>
+
+
+
+<footer>
+
+   <div class="card-footer bg-transparent border-success" style="text-align: center;"><p>&copy; 2024  all rights reserved</p></div>
+</footer>
+
+
+
+
+     <script src="https://kit.fontawesome.com/7cbb519df9.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
